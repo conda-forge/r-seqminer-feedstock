@@ -12,7 +12,7 @@ source:
     - {{ cran_mirror }}/src/contrib/Archive/seqminer/seqminer_{{ version }}.tar.gz
   sha256: d184d7a12019c4e65b12cca2205ffc35e15c8d58813417298fea83c52b925f02
   patches:
-    - patch
+    - patch  # [not win]
 
 build:
   merge_build_host: true  # [win]
