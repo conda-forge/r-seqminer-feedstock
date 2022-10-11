@@ -5,7 +5,7 @@ bzip2:
 c_compiler:
 - clang
 c_compiler_version:
-- '11'
+- '14'
 channel_sources:
 - conda-forge
 channel_targets:
@@ -15,19 +15,15 @@ cran_mirror:
 cxx_compiler:
 - clangxx
 cxx_compiler_version:
-- '11'
+- '14'
 macos_machine:
 - x86_64-apple-darwin13.4.0
 pin_run_as_build:
-  bzip2:
-    max_pin: x
   r-base:
     min_pin: x.x
     max_pin: x.x
-  zlib:
-    max_pin: x.x
 r_base:
-- '4.0'
+- '4.2'
 target_platform:
 - osx-64
 zip_keys:
