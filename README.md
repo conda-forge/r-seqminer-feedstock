@@ -3,6 +3,7 @@ About r-seqminer-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-seqminer-feedstock/blob/main/LICENSE.txt)
 
+
 About r-seqminer
 ----------------
 
@@ -11,6 +12,7 @@ Home: http://seqminer.genomic.codes
 Package license: GPL-2.0-or-later
 
 Summary: Integrate sequencing data (Variant call format, e.g. VCF or BCF) or meta-analysis results in R. This package can help you (1) read VCF/BCF/BGEN files by chromosomal ranges (e.g. 1:100-200); (2) read RareMETAL summary statistics files; (3) read tables from a tabix-indexed files; (4) annotate VCF/BCF files; (5) create customized workflow based on Makefile.
+
 About r-seqminer
 ----------------
 
