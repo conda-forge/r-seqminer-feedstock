@@ -1,4 +1,4 @@
-{% set version = "9.3" %}
+{% set version = "9.4" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/seqminer_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/seqminer/seqminer_{{ version }}.tar.gz
-  sha256: 5a6a71b5c59e8c63c61cb4fd15d86bb12253f8edf3fee07129b12edffc78b11d
+  sha256: ac7c6dcca46e3efe3f2f49e42ddb196683b8b218ed19d446148c404670d33e55
   patches:
     - patch  # [not win]
 
