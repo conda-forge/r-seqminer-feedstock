@@ -1,4 +1,4 @@
-{% set version = "9.4" %}
+{% set version = "9.7" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,12 +9,12 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/seqminer_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/seqminer/seqminer_{{ version }}.tar.gz
-  sha256: ac7c6dcca46e3efe3f2f49e42ddb196683b8b218ed19d446148c404670d33e55
+  sha256: e5ce2581ecdf40e278c8f981bb4ea8ddc969d790dc42cfafbbd97ded3881b395
   patches:
     - patch  # [not win]
 
 build:
-  number: 2
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
