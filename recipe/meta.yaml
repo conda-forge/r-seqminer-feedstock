@@ -10,8 +10,8 @@ source:
     - {{ cran_mirror }}/src/contrib/seqminer_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/seqminer/seqminer_{{ version }}.tar.gz
   sha256: e5ce2581ecdf40e278c8f981bb4ea8ddc969d790dc42cfafbbd97ded3881b395
-  patches:
-    - patch  # [not win]
+  #patches:
+  #  - patch  # [not win]
 
 build:
   number: 0
